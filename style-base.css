@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+// pour éviter que les marges et les padding soit ajoutés à la largeur width d'un bloc
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: Geneva, Arial,sans-serif;
+}
